@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.engineersk.notekeeper.NoteActivity">
+    <item
+        android:id="@+id/action_send_mail"
+        android:orderInCategory="1"
+        android:title="@string/send_as_email"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/acton_next"
+        android:icon="@drawable/ic_next_24"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="3"
+        android:title="@string/next"/>
+    <item
+        android:id="@+id/action_cancel"
+        android:icon="@drawable/ic_undo_24"
+        app:showAsAction="ifRoom|withText"
+        android:orderInCategory="2"
+        android:title="@string/cancel"/>
+</menu>
